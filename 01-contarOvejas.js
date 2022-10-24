@@ -20,8 +20,10 @@ function contarOvejas(ovejas) {
         }        
         return;
   })
-    
-    return filtradas
+  let filtradisima = filtradas.filter(function(x) {
+    return x !== undefined;
+});
+    return filtradisima
   }
 // Al ejecutar el método debería devolver lo siguiente:
 
